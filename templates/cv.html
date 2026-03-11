@@ -1,0 +1,152 @@
+{% extends "base.html" %}
+
+{% block content %}
+<section class="cv-page">
+            <div class="cv-actions">
+                <a class="cv-button" href="{{ url_for('static', filename='files/cv.pdf') }}" download>
+                    Download PDF
+                </a>
+            </div>
+
+    <div class="cv-card">
+        
+        <aside class="cv-sidebar">
+            <div class="cv-photo-wrap">
+                <img src="{{ url_for('static', filename='images/felipe.jpeg') }}" alt="Portræt af Felipe Vasquez" class="cv-photo">
+            </div>
+
+            <div class="cv-section">
+                <h3>Kontakt</h3>
+                <ul class="cv-list">
+                    <li>+45 22 44 17 63</li>
+                    <li>vasquezfelipe@outlook.com</li>
+                    <li>Højsagervej 5A, 2500 Valby</li>
+                </ul>
+            </div>
+
+            <div class="cv-section">
+                <h3>Kompetencer</h3>
+                <ul class="cv-list">
+                    <li>Microsoft Office</li>
+                    <li>Word</li>
+                    <li>Excel</li>
+                    <li>PowerPoint</li>
+                    <li>Teams</li>
+                    <li>Notebook</li>
+                    <li>MySQL</li>
+                    <li>PowerBI</li>
+                </ul>
+            </div>
+
+            <div class="cv-section">
+                <h3>Sprog</h3>
+                <ul class="cv-list">
+                    <li>Dansk</li>
+                    <li>Engelsk</li>
+                    <li>Forståelse af skandinavisk sprog</li>
+                </ul>
+            </div>
+        </aside>
+
+        <main class="cv-main">
+            <header class="cv-header">
+                <h1>Felipe Vasquez</h1>
+                <p>Økonomi og IT studerende</p>
+            </header>
+
+            <section class="cv-content-section">
+                <h2>Om mig</h2>
+                <p>
+                    Jeg hedder Felipe, er 24 år og bor i Valby, hvor jeg også er født og opvokset.
+                    Til daglig studerer jeg i indre København. Gennem min opvækst har jeg spillet
+                    fodbold på eliteplan i Brøndby IF, Hvidovre IF og BK Frem, hvilket har formet
+                    mig både personligt og professionelt. Det har givet mig en stærk disciplin,
+                    høj arbejdsmoral og en stor dedikation til de mål, jeg sætter mig.
+                </p>
+                <p>
+                    Jeg arbejder struktureret og udviklingsorienteret og har en god evne til at skabe
+                    overblik og prioritere mine opgaver. Samtidig sætter jeg stor pris på at opbygge
+                    og pleje gode relationer. Efter at have arbejdet i flere forskellige brancher har
+                    jeg især erfaret, at godt samarbejde med kolleger er helt afgørende – og noget
+                    jeg både vægter højt og trives i.
+                </p>
+                <p>
+                    Privat har jeg en bred vennekreds, hvor der er stor gensidig respekt, og jeg er
+                    kendt for at være hjælpsom, socialt engageret og én, man altid kan regne med.
+                </p>
+            </section>
+
+            <section class="cv-content-section">
+                <h2>Uddannelse</h2>
+
+                <div class="cv-item">
+                    <span class="cv-date">august 2025 - nu</span>
+                    <h4>Økonomi og IT</h4>
+                    <p>Erhvervsakademiet København</p>
+                </div>
+
+                <div class="cv-item">
+                    <span class="cv-date">august 2021 - 2023</span>
+                    <h4>Pilotstuderende</h4>
+                    <p>Copenhagen Air Taxi</p>
+                </div>
+
+                <div class="cv-item">
+                    <span class="cv-date">august 2018 - juni 2021</span>
+                    <h4>Gymnasial stx-uddannelse</h4>
+                    <p>Brøndby Gymnasium</p>
+                </div>
+
+                <div class="cv-item">
+                    <span class="cv-date">august 2015 - juni 2018</span>
+                    <h4>Folkeskolens afgangseksamen</h4>
+                    <p>Valhøj Skole</p>
+                </div>
+            </section>
+
+            <section class="cv-content-section">
+                <h2>Erhvervserfaring</h2>
+
+                <div class="cv-item">
+                    <span class="cv-date">januar 2024 - september 2025</span>
+                    <h4>Pædagogmedhjælper, DSC Valhøj, Rødovre</h4>
+                    <p>
+                        Jeg har stået for koordinering og planlægning af daglige og ugentlige aktiviteter,
+                        klasseundervisning med fokus på struktur og tydelige forventninger, udvikling af
+                        visuelle støtteværktøjer, pædagogisk dokumentation, forældrekontakt samt tæt
+                        teamsamarbejde om evaluering og tilrettelæggelse.
+                    </p>
+                </div>
+
+                <div class="cv-item">
+                    <span class="cv-date">februar 2022 - januar 2024</span>
+                    <h4>Tilkaldevikar, Valhøj Skole, Rødovre</h4>
+                    <p>
+                        Jeg har arbejdet som både tilkaldevikar og fast vikar, hvilket gav erfaring med
+                        fleksibel opgaveløsning, hurtig omstilling og ansvar for at sikre kontinuitet i hverdagen.
+                    </p>
+                </div>
+
+                <div class="cv-item">
+                    <span class="cv-date">december 2018 - januar 2021</span>
+                    <h4>Salgsmedarbejder, Mr. Harris, Lyngby</h4>
+                    <p>
+                        Jeg har arbejdet med salg, kundeservice, telefonopkald, butikdekoration,
+                        varepræsentation samt åbne- og lukkerutiner, herunder kasseopgørelse.
+                    </p>
+                </div>
+
+                <div class="cv-item">
+                    <span class="cv-date">januar 2019 - september 2019</span>
+                    <h4>Tjener, Café Victoria, Hvidovre</h4>
+                    <p>
+                        Mine opgaver omfattede ordreoptagelse, kassebetjening, servering, afrydning
+                        samt åbne- og lukkevagter.
+                    </p>
+                </div>
+            </section>
+        </main>
+
+    </div>
+</section>
+{% endblock %}
