@@ -37,9 +37,7 @@ main{
 .site-nav{
     display:flex;
     gap:28px;
-    position: absolute;
-    right: 150px;
-    top: auto;
+    position:static;
 }
 
 .site-nav a{
@@ -743,16 +741,21 @@ main{
     transform: translateY(0) !important;
 }
 
-.social-icon{
-    width:24px;
-    height:24px;
-    opacity:0.8;
-    transition:opacity 0.3s ease;
+.social-icons{
     display:flex;
     align-items:center;
     gap:12px;
 }
 
+.social-icon{
+    width:24px;
+    height:24px;
+    object-fit:contain;
+    opacity:0.8;
+    transition:opacity 0.3s ease, transform 0.3s ease;
+}
+
 .social-icon:hover{
     opacity:1;
+    transform:translateY(-2px);
 }
