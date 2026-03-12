@@ -739,3 +739,33 @@ main{
     opacity: 1 !important;
     transform: translateY(0) !important;
 }
+
+.facebook-icon {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 24px;
+    height: 24px;
+    opacity: 0.8;
+    transition: opacity 0.3s ease;
+}
+
+.instagram-icon {
+    position: absolute;
+    top: 20px;
+    right: 60px;
+    width: 24px;
+    height: 24px;
+    opacity: 0.8;
+    transition: opacity 0.3s ease;
+}
+
+.linkedin-icon {
+    position: absolute;
+    top: 20px;
+    right: 100px;
+    width: 24px;
+    height: 24px;
+    opacity: 0.8;
+    transition: opacity 0.3s ease;
+}
