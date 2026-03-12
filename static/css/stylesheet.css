@@ -234,6 +234,8 @@ main{
     border-radius:10px;
     overflow:hidden;
     box-shadow:0 10px 30px rgba(0,0,0,0.08);
+    position:relative;
+    align-items:stretch;
 }
 
 .cv-sidebar{
@@ -253,9 +255,21 @@ main{
 }
 
 .cv-download{
+    display:inline-block;
+    background:#2f5563;
+    color:white;
+    padding:12px 22px;
+    border-radius:8px;
+    text-decoration:none;
+    font-weight:600;
     position:absolute;
     top:25px;
     right:25px;
+    box-shadow:0 4px 10px rgba(0,0,0,0.1);
+}
+
+.cv-download:hover{
+    background:#244651;
 }
 
 /* ABOUT */
