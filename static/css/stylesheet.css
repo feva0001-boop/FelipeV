@@ -748,6 +748,9 @@ main{
     height:24px;
     opacity:0.8;
     transition:opacity 0.3s ease;
+    display:flex;
+    align-items:center;
+    gap:12px;
 }
 
 .social-icon:hover{
