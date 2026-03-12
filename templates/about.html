@@ -1,0 +1,54 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<section class="about-page">
+
+    <h1 class="about-title">Om mig</h1>
+
+    <div class="about-text">
+        <p>
+            Jeg hedder Felipe, er 24 år og bor til dagligt i Valby. Jeg er vokset op i Brøndby,
+            hvor jeg har gået på folkeskole og gymnasium. Til daglig studerer jeg i indre København
+            på Erhvervsakademi København, hvor jeg læser Økonomi og IT.
+        </p>
+
+        <p>
+            Gennem min opvækst har jeg spillet fodbold på eliteplan i Brøndby IF, her startede jeg da
+            jeg var 5 år gammel, og senere i Hvidovre IF og BK Frem. Til sidst i min karriere, da jeg
+            spillede i BK Frem, rev jeg desværre mit korsbånd og min menisk over.
+        </p>
+
+        <p>
+            Jeg valgte at kæmpe mig tilbage på banen, og efter 1,5 år, hvor jeg genoptrænede, kom jeg
+            endelig tilbage på banen. Det varede dog ikke længe, før jeg rev mit korsbånd og min menisk igen,
+            og det var så det for min fodboldkarriere. Jeg besluttede mig derefter for at fokusere på min
+            uddannelse, og det er jeg rigtig glad for i dag.
+        </p>
+
+        <p>
+            Derudover kan jeg rigtig godt lide at bruge tid med mine venner og familie. Jeg kan også rigtig
+            godt lide at rejse og se fodbold, og i bedste tilfælde kombinere de to ting, og det har jeg gjort flere gange.
+        </p>
+    </div>
+
+    <p class="about-signature">Felipe Vasquez</p>
+
+    <div class="carousel-window">
+        <div class="carousel-track" id="carouselTrack">
+            <img src="{{ url_for('static', filename='images/billede1.jpg') }}" alt="Billede 1">
+            <img src="{{ url_for('static', filename='images/billede2.jpg') }}" alt="Billede 2">
+            <img src="{{ url_for('static', filename='images/billede3.jpg') }}" alt="Billede 3">
+            <img src="{{ url_for('static', filename='images/billede4.jpg') }}" alt="Billede 4">
+            <img src="{{ url_for('static', filename='images/billede5.jpg') }}" alt="Billede 5">
+            <img src="{{ url_for('static', filename='images/billede6.jpg') }}" alt="Billede 6">
+            <img src="{{ url_for('static', filename='images/billede7.jpg') }}" alt="Billede 7">
+            <img src="{{ url_for('static', filename='images/billede8.jpg') }}" alt="Billede 8">
+        </div>
+    </div>
+
+    <div class="carousel-dots" id="carouselDots"></div>
+
+</section>
+
+{% endblock %}
