@@ -37,6 +37,9 @@ main{
 .site-nav{
     display:flex;
     gap:28px;
+    position: absolute;
+    right: 150px;
+    top: auto;
 }
 
 .site-nav a{
@@ -742,7 +745,7 @@ main{
 
 .facebook-icon {
     position: absolute;
-    top: 20px;
+    top: 22px;
     right: 20px;
     width: 24px;
     height: 24px;
@@ -752,7 +755,7 @@ main{
 
 .instagram-icon {
     position: absolute;
-    top: 20px;
+    top: 22px;
     right: 60px;
     width: 24px;
     height: 24px;
@@ -762,7 +765,7 @@ main{
 
 .linkedin-icon {
     position: absolute;
-    top: 20px;
+    top: 22px;
     right: 100px;
     width: 24px;
     height: 24px;
